@@ -1,0 +1,35 @@
+
+    .parent{
+        margin: 0 2.5rem;
+        padding: .5rem 0;
+        align-items: center;
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    .header, .headerRight {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    a > span{
+        margin: 0 30px;
+        font-size: 1.3rem;
+        cursor: pointer;
+        color: white;
+    }
+    
+    a > span:hover {
+        color: rgb(252, 252, 0);
+    }
+    
+    .icon {
+        margin: 0;
+        width: 80px;
+        cursor: pointer;
+    }
+    
+    .user__avatar {
+        font-size: 2rem;
+    }
